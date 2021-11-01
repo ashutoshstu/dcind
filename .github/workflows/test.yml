@@ -34,5 +34,5 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            odidev/dcind:${{ steps.prepare.outputs.tag_name }}
-            odidev/dcind:latest
+            abhishek138/dcind:${{ steps.prepare.outputs.tag_name }}
+            abhishek138/dcind:latest
